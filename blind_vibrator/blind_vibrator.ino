@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL30xYK-iJF"
-#define BLYNK_TEMPLATE_NAME "Blind Guider"
-#define BLYNK_AUTH_TOKEN "FzY7MXN0zWCZNh_Cd7BES82eXY8M_0vR"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 #include <Wire.h>
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -28,9 +28,9 @@ float ax = 0, ay = 0, az = 0;
 boolean fallDetected = false;
 int Amp = 0;
 
-char auth[] = "FzY7MXN0zWCZNh_Cd7BES82eXY8M_0vR";
-char ssid[] = "Galaxy A14 5G";
-char pass[] = "masleschar3002";
+char auth[] = "";
+char ssid[] = "SSID";
+char pass[] = "PASSWORD";
 
 int16_t AcX, AcY, AcZ;
 
